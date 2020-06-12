@@ -16,7 +16,7 @@ body{
     left: 0rem;
 }
 
-.headingLink{
+.headings{
     display: inline-block;
     position: absolute;
     margin-top: 2.2rem;
@@ -25,6 +25,8 @@ body{
 
 .header-link{
     margin-left: 3rem;
+    color: #4e7c4d;
+    text-decoration: none;
 }
 
 .profilePicDiv{
@@ -58,6 +60,7 @@ body{
 
 #softwareEngineer{
     font-size: 20px;
+    color: #4e7c4d;
 }
 
 #cloudOne{
@@ -107,6 +110,12 @@ hr{
     margin-bottom: 6rem;
 }
 
+p{
+    color: black;
+    font-family: 'Montserrat', cursive;
+    font-variant: normal;
+}
+
 .images{
     height: 110px;
     width: 110px;
@@ -140,10 +149,14 @@ hr{
     margin-left: 32rem;
 }
 
-.btn{
+.contactMeBtn{
     position: absolute;
     margin-top: 2rem;
-    left: 700px;
+    left: 660px;
+    color: black;
+    background-color: #12947f;
+    padding: .7rem 2.5rem;
+    text-decoration: none;
 }
 
 .bottom-container{
@@ -160,12 +173,6 @@ hr{
 
 .footer-link{
     margin-left: 8rem;
+    color: #4e7c4d;
+    text-decoration: none;
 }
-
-
-
-
-
-
-
-
