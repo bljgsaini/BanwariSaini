@@ -1,0 +1,171 @@
+
+body{
+    margin: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    background-color: #f7f7ee;
+    color: #4e7c4d;
+}
+
+.heading-container{
+    position:fixed;
+    background-color:#dddddd;
+    display: inline-block;
+    height: 6rem;
+    width:100%;
+    left: 0rem;
+}
+
+.headingLink{
+    display: inline-block;
+    position: absolute;
+    margin-top: 2.2rem;
+    margin-left: 10rem;
+}
+
+.header-link{
+    margin-left: 3rem;
+}
+
+.profilePicDiv{
+    display: inline-block;
+    position: relative;
+    left: -25rem;
+}
+
+.myProfilePic{
+    height: 75px;
+    width: 75px;
+    border-radius: 10rem;
+    margin-top: .5rem;
+}
+
+.first-container{
+    margin:0;
+    background-color: #eaeff1;
+    text-align: center;
+}
+
+.myDivName{
+    margin-top: 12rem;
+}
+
+#banwariName{
+    font-family: 'Sacramento', cursive;
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+#softwareEngineer{
+    font-size: 20px;
+}
+
+#cloudOne{
+    position: relative;
+    top: 12rem;
+    left: 25rem;
+}
+
+#cloudTwo{
+    position: absolute;
+    left: 20rem;
+}
+
+#mountain{
+    position: relative;
+}
+
+hr{
+    border-style: dotted none none;
+    border-width: 5px;
+    color: #99b898;
+    width: 5%;
+}
+
+.profile{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    position: relative;
+    width: 35rem;
+    margin-left:30rem;
+}
+
+.skills{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-left: 22.5rem;
+    width: 50rem;
+}
+
+.skill-row{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.skill-row-odd{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.images{
+    height: 110px;
+    width: 110px;
+    border-radius: 10rem;
+    margin-top: 0rem;
+}
+
+.imageDiv{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+
+}
+
+.textDiv{
+    height: 100px;
+    width: 350px;
+    display: inline-block;
+    margin-left: 6rem;
+    padding-bottom: 2rem;
+}
+
+.contact-me{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.contactMeDiv{
+    height: 200px;
+    width: 500px;
+    margin-left: 32rem;
+}
+
+.btn{
+    position: absolute;
+    margin-top: 2rem;
+    left: 700px;
+}
+
+.bottom-container{
+    background-color: #eaeff1;
+    height: 10rem;
+}
+
+.connectLink{
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    margin-left: 20rem;
+}
+
+.footer-link{
+    margin-left: 8rem;
+}
+
+
+
+
+
+
+
+
