@@ -29,6 +29,10 @@ body{
     text-decoration: none;
 }
 
+.header-link:hover{
+    color: #84a9ac;
+}
+
 .profilePicDiv{
     display: inline-block;
     position: relative;
@@ -86,28 +90,18 @@ hr{
 }
 
 .profile{
-    margin-top: 6rem;
-    margin-bottom: 6rem;
     position: relative;
-    width: 35rem;
-    margin-left:30rem;
+    width: 35%;
+    margin: 6rem auto 6rem auto;
 }
 
 .skills{
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-    margin-left: 22.5rem;
-    width: 50rem;
+    margin: 6rem auto 8rem auto;
+    width: 50%;
 }
 
 .skill-row{
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-}
-
-.skill-row-odd{
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin: 6rem auto 6rem auto;
 }
 
 p{
@@ -117,25 +111,23 @@ p{
 }
 
 .images{
-    height: 110px;
-    width: 110px;
+    height:30%;
+    width: 30%;
     border-radius: 10rem;
     margin-top: 0rem;
+    float: left;
+    margin: 2rem;
 }
 
-.imageDiv{
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-
+.devopsImage{
+    height: 128px;
 }
 
 .textDiv{
-    height: 100px;
-    width: 350px;
-    display: inline-block;
-    margin-left: 6rem;
+    width: 60%;
+    margin-left: 25rem;
     padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 .contact-me{
@@ -144,18 +136,29 @@ p{
 }
 
 .contactMeDiv{
-    height: 200px;
-    width: 500px;
-    margin-left: 32rem;
+    width: 35%;
+    height: 50%;
+    position: relative;
+    margin: 2rem auto 10rem auto;
+    text-align: center;
 }
 
 .contactMeBtn{
-    position: absolute;
-    margin-top: 2rem;
-    left: 660px;
+    position: relative;
+    top: 40px;
     color: black;
     background-color: #12947f;
     padding: .7rem 2.5rem;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.contactMeBtn:hover {
+    background: #84A9AC;
+    border: solid #99C624 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
     text-decoration: none;
 }
 
@@ -176,3 +179,16 @@ p{
     color: #4e7c4d;
     text-decoration: none;
 }
+
+.footer-link:hover{
+    color: #84a9ac;
+}
+
+
+
+
+
+
+
+
+
